@@ -1,0 +1,12 @@
+{
+  "name": "01-simple",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Sample minimum extension",
+  "content_scripts": [
+    {
+      "matches": ["https://app.usergram.info/*"],
+      "js": ["main.js"]
+    }
+  ]
+}
